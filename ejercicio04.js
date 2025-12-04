@@ -6,3 +6,5 @@ fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
         console.log("Peso:", data.weight);
     })
     .catch(err => console.log("Error:", err));
+
+    

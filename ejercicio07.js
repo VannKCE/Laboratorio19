@@ -4,3 +4,5 @@ fetch("https://pokeapi.co/api/v2/pokemon?limit=20")
     .then(data => {
         data.results.forEach(pokemon => console.log(pokemon.name));
     });
+
+    
